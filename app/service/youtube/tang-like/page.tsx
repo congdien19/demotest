@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import Link from 'next/link';
 import AppLayout from '@/app/component/AppLayout';
 import Breadcrumb from '@/app/component/Breadcrumb';
 import { placeServiceOrder } from '@/app/lib/services';
@@ -151,10 +150,10 @@ export default function YouTubeLike() {
                       <h5 className="alert-heading">Hướng dẫn sử dụng</h5>
                       <ol>
                         <li>Sao chép link video YouTube cần tăng like</li>
-                        <li>Dán link vào ô "Link video"</li>
+                        <li>Dán link vào ô &quot;Link video&quot;</li>
                         <li>Chọn số lượng like muốn tăng</li>
                         <li>Chọn tốc độ thực hiện</li>
-                        <li>Nhấn "Đặt đơn hàng" để hoàn tất</li>
+                        <li>Nhấn &quot;Đặt đơn hàng&quot; để hoàn tất</li>
                       </ol>
                     </div>
 

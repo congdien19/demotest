@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import Link from 'next/link';
 import AppLayout from '@/app/component/AppLayout';
 import Breadcrumb from '@/app/component/Breadcrumb';
 import { placeServiceOrder } from '@/app/lib/services';
@@ -154,7 +153,7 @@ export default function YouTubeSubscribe() {
                         <li>Dán link vào ô &quot;Link kênh&quot;</li>
                         <li>Chọn số lượng subscribe muốn tăng</li>
                         <li>Chọn tốc độ thực hiện</li>
-                        <li>Nhấn "Đặt đơn hàng" để hoàn tất</li>
+                        <li>Nhấn &quot;Đặt đơn hàng&quot; để hoàn tất</li>
                       </ol>
                     </div>
 

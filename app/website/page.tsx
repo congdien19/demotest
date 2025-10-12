@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function WebsiteAndAPI() {
   const [apiKey, setApiKey] = useState('sk_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
@@ -49,7 +50,7 @@ export default function WebsiteAndAPI() {
                   strokeLinejoin="round"
                 />
               </svg>
-              SubGiaRe.Vn
+              congdien.vn
             </Link>
           </li>
           <li className="breadcrumb-item active">
@@ -108,7 +109,7 @@ export default function WebsiteAndAPI() {
                       <ol>
                         <li>Nhập tên miền bạn muốn sử dụng</li>
                         <li>Chọn gói website phù hợp</li>
-                        <li>Nhấn "Tạo website" để hoàn tất</li>
+                        <li>Nhấn &quot;Tạo website&quot; để hoàn tất</li>
                         <li>Cấu hình DNS theo hướng dẫn</li>
                       </ol>
                     </div>
@@ -177,12 +178,12 @@ export default function WebsiteAndAPI() {
                     <div className="alert alert-info">
                       <h5 className="alert-heading">Hướng dẫn sử dụng API</h5>
                       <p>
-                        API của SubGiaRe.Vn cho phép bạn tích hợp các dịch vụ của chúng tôi 
+                        API của congdien.vn cho phép bạn tích hợp các dịch vụ của chúng tôi 
                         vào ứng dụng, website hoặc hệ thống của bạn một cách tự động.
                       </p>
                       <p>
                         Tài liệu chi tiết về API có thể được tìm thấy tại: 
-                        <a href="#" className="ms-1">https://subgiare.vn/api-docs</a>
+                        <a href="#" className="ms-1">https://congdien.vn/api-docs</a>
                       </p>
                     </div>
                   </div>
